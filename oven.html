@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>UTFPR-Orientação Objetos</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Cadastro de Fogões</h1>
+
+    <input id="iptModel" type="text" placeholder="Digite o Modelo" />
+    <input id="iptVoltage" type="number" placeholder="Digite a Voltagem" />
+    <input id="iptFees" type="number" placeholder="Digite os juros" />
+    <input id="iptDoors" type="number" placeholder="Digite as portas" />
+    <input id="btnSave" type="button" value="Cadastrar" />
+    <input id="btnList" type="button" value="Listar" />
+
+    <table>
+      <th>Modelo</th>
+      <th>Voltagem</th>
+      <th>Juros</th>
+      <th>Portas</th>
+      <tbody id="tblOven"></tbody>
+    </table>
+
+    <a href="/index.html">Voltar</a>
+    <script src="src/ovenView.ts"></script>
+  </body>
+</html>
